@@ -1,0 +1,10 @@
+.gallery {
+    padding-bottom: 500px;  
+}
+
+.galleryItem button {
+    background-color: white;
+    border: none;
+    margin-left: 35px;
+    width: 30%;
+}

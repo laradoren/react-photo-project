@@ -1,0 +1,50 @@
+.modalOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modalWindow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  min-height: 500px;
+  width: 900px;  
+}
+
+.close {
+  float: right;
+}
+.modalWindowContent{
+  display: flex;
+  padding: 40px;
+}
+.content {
+  width: 50%;
+  margin-right: 150px;
+}
+.content img{
+  width: 500px;
+}
+
+.content input{
+  width: 500px;
+  margin: 7px 0; 
+  padding: 7px 0;
+  border: gray 1px solid;
+}
+.content button{
+  width: 500px;
+  margin: 7px 0; 
+  padding: 7px 0;
+  color: #fff;
+  background-color: rgb(75, 75, 247);
+  border: rgb(75, 75, 247) 1px solid;
+}
+
+
